@@ -1,0 +1,33 @@
+{
+  "name": "wrca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon --watch src ./src/server.js",
+    "test": "jest"
+  },
+  "author": "David Burgos",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^3.2.1",
+    "aws-sdk": "^2.1010.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.1.0",
+    "fast-glob": "^3.2.7",
+    "helmet": "^4.6.0",
+    "ioredis": "^4.28.0",
+    "string-template": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "nodemon": "^2.0.14",
+    "prisma": "^3.2.1"
+  },
+  "prisma": {
+    "schema": "src/sources/schema.prisma"
+  }
+}

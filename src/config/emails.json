@@ -1,0 +1,7 @@
+{
+    "clonedProject": {
+        "from": "no-reply@example.net",
+        "subject": "Project was cloned ✅ ",
+        "body": "Hey there, \n\nJust to let you know the project with code {code} was cloned successfully as you requested. \n\nBye!"
+    }
+}
